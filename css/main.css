@@ -10,7 +10,7 @@ Global Styles
    float: left;
    margin: 5px;
    padding: 1px;
-   width: 200px;
+   width: 230px;
    height:160px;
 }   
 
@@ -604,7 +604,7 @@ Testimonials Style
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 10px 0;
+  padding: 0px 0;
   text-align: center;
 }
 #testimonials h2 {
@@ -654,7 +654,7 @@ Testimonials Style
 Contact Us Style
 ========================================================================== */
 #contact {
-  padding: 10px 0;
+  padding: 0px 0;
   text-align: center;
 }
 #contact h2 {
@@ -675,7 +675,7 @@ Contact Us Style
   min-height: 45px;
 }
 #contact textarea {
-  height: 140px;
+  height: 10px;
   resize: none;
 }
 
@@ -684,7 +684,7 @@ Google Map Style
 ========================================================================== */
 #map {
   width: 100%;
-  height: 400px;
+
 }
 
     /* ==========================================================================
@@ -692,7 +692,7 @@ Footer Map Style
 ========================================================================== */
 footer {
   background: #24242a;
-  padding: 10px 0;
+  padding: 0px 0;
   text-align: center;
 }
 footer h1 {
@@ -744,7 +744,7 @@ Media Queries Style
     width: 100%;
   }
   .navbar-default .navbar-toggle {
-    padding-top: 25px;
+    padding-top: 5px;
     padding-bottom: 25px;
     border: none;
   }
