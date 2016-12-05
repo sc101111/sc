@@ -436,7 +436,7 @@ Services Style
 Portfolio Style
 ========================================================================== */
 #portfolio {
-  padding:90px 0;
+  padding:70px 0;
   text-align: center;
 }
 #portfolio h2 {
@@ -501,11 +501,11 @@ Portfolio Style
 Work Process Style
 ========================================================================== */
 #work-process {
-  padding: 10px 0;
+  padding: 0px 0;
   text-align: center;
 }
 #work-process .col-lg-3 {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 #work-process h2 {
   text-transform: uppercase;
