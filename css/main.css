@@ -8,9 +8,9 @@ Global Styles
 }   
 .city {
    float: left;
-   margin: 5px;
+   margin: 3px;
    padding: 1px;
-   width: 220px;
+   width: 215px;
    height:160px;
 }   
 
@@ -195,7 +195,7 @@ Preloader Style
   right: 0;
   bottom: 0;
   z-index: 999999;
-  background: #24242a;
+  background: rgba(66, 132, 252, 0.9);
 }
 .preloader i {
   color: #fff;
