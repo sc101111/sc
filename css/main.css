@@ -10,7 +10,7 @@ Global Styles
    float: left;
    margin: 5px;
    padding: 1px;
-   width: 230px;
+   width: 220px;
    height:160px;
 }   
 
@@ -436,7 +436,7 @@ Services Style
 Portfolio Style
 ========================================================================== */
 #portfolio {
-  padding:10px 0;
+  padding:90px 0;
   text-align: center;
 }
 #portfolio h2 {
@@ -744,7 +744,7 @@ Media Queries Style
     width: 100%;
   }
   .navbar-default .navbar-toggle {
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 25px;
     border: none;
   }
