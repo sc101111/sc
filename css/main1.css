@@ -2,25 +2,7 @@
 /* ==========================================================================
 Global Styles
 ========================================================================== */
-.title  {
-   text-align: center; 
-   
-}   
-.city {
-   float: left;
-   margin: 5px;
-   padding: 1px;
-   width: 200px;
-   height:160px;
-}   
 
-.btn {
-   text-align:center;
-   float: center;
-   margin: 5px;
-   padding: 1px;
-   
-}   
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -229,11 +211,11 @@ Navigation Style
   width: 50%;
 }
 .navbar-default .nav > li > a {
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
-  padding: 25px 10px;   //navi word titie range
+  padding: 35px 20px;   //navi word titie range
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -391,7 +373,7 @@ Services Style
 ========================================================================== */
 #services {
   background: #24242a;
-  padding: 70px 0;
+  padding: 10px 0;
   text-align: center;
 }
 #services h2 {

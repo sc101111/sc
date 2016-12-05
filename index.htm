@@ -61,7 +61,9 @@
                 <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
                     <div class="col-md-8 col-xs-12 nav-wrap">
                         <ul class="nav navbar-nav">
-                            <li><a href="#services" class="page-scroll">我的設計理念　</a></li>                           
+                            <li><a href="#services" class="page-scroll">理念</a></li>  
+                            <li><a href="#portfolio" class="page-scroll">作品</a></li> 
+                            <li><a href="#work-process" class="page-scroll">關於</a></li> 							
                             <li><div id="fb-root"></div><script src="http://connect.facebook.net/zh_TW/all.js#appId=253496031362340&amp;xfbml=1"></script><fb:login-button show-faces="true" onlogin="window.location.href='http://www.yahoo.com.tw' width="400" max-rows="1">有聽老師話的人才可登入</fb:login-button><div id="profile_pics"></div><script>var profilePicsDiv = document.getElementById('profile_pics');FB.getLoginStatus(function(response) {  if (response.status != 'connected') {    profilePicsDiv.innerHTML = '<em>You are not connected</em>';    return;  }  FB.api({ method: 'friends.get' }, function(result) {    Log.info('friends.get response', result);    var markup = '';    var numFriends = result ? Math.min(15, result.length) : 0;    if (numFriends > 0) {      for (var i=0; i<numFriends; i++) {        markup += (          '<fb:profile-pic size="square" ' +                          'uid="' + result[i] + '" ' +                          'facebook-logo="true"' +          '></fb:profile-pic>'        );      }    }    profilePicsDiv.innerHTML = markup;    FB.XFBML.parse(profilePicsDiv);  });});</script>
 </li> 
 							
@@ -125,14 +127,14 @@
     <section id="services">
         <div class="container">
             <h2>我的專長簡介</h2>          
-            <p>界面設計＋行銷規劃</p>
+            <p>界面設計＋行銷策略+系統規劃</p>
             <div class="services-box">
                 <div class="row wow fadeInUp" data-wow-delay=".3s">
                     <div class="col-md-4">
                         <div class="media-left"><span class="icon-lightbulb"></span></div>
                         <div class="media-body">
-                            <h3>重點新聞分析＋產品廣告</h3>
-                            <p>這需要和媒體，網路，社群同時間合作點擊，針對一個主流民意，置入產品行銷的認同感。</p>
+                            <h3>重點新聞＋產品廣告</h3>
+                            <p>這需要和媒體，網路，社群同時間合作點擊，針對一個主流民意話題，置入產品行銷的認同感。</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -378,28 +380,57 @@
 	============================================= -->
     <section id="work-process">
         <div class="container">
-            <h2>Work Process</h2>
-            <hr class="sep">
-            <p>What Happen In The Background</p>
-            <div class="row wow fadeInUp" data-wow-delay=".3s">
-                <div class="col-lg-3">
-                    <span class="icon-chat"></span>
-                    <h4>1.Discuss</h4>
-                </div>
-                <div class="col-lg-3">
-                    <span class="icon-circle-compass"></span>
-                    <h4>2.Sketch</h4>
-                </div>
-                <div class="col-lg-3">
-                    <span class="icon-browser"></span>
-                    <h4>3.Make</h4>
-                </div>
-                <div class="col-lg-3">
-                    <span class="icon-global"></span>
-                    <h4>4.Publish</h4>
-                </div>
-            </div>
-        </div>
+            <h2>我的基本資料</h2>
+         <div class="title">
+
+
+<button type="button" class="btn">
+<div class="city">
+  <h3>興趣</h3>
+  <p>桌球,電玩,程式,系統,</p>  
+  <p>藝術,貿易,閱讀,音樂</p>  
+</div>
+</button>
+
+<button type="button" class="btn">
+<div class="city">
+  <h3>姓名/星座/血型</h3>
+  <p>張天福</p> 
+  <p>天蝎座/B型</p> 
+  <p>出生地:新竹市</p> 
+</div>
+</button>
+
+<button type="button" class="btn">
+<div class="city">
+  <h3>連絡資料</h3>
+  <p>simonchang1108@gmail.com</p>
+  <p>手機:0972192347</p>
+  <p>LINE:artmevangogh</p>
+</button>
+
+<button type="button" class="btn">
+<div class="city">
+  <h3>QR Code</h3>
+  <a href="https://www.facebook.com/simon.chang.evolution" >
+  <img src="sc-1.png " width="100px"; height="100px" >
+  </a>
+</div>
+</button>
+
+
+<button type="button" class="btn">
+<div class="city">
+  <h3>座右銘</h3>
+  <p>when virtue tarries</p> 
+  <p>evil smiles</p>
+</div>
+</button>
+
+
+</div>
+
+</div>
     </section>
     <!-- Some Fune Facts
 	============================================= -->
@@ -541,7 +572,18 @@ work only with <span>Rise</span>.<i class="fa fa-quote-right right fa-2x"></i></
         </div>
     </section>
     <!-- Google Map
-	============================================= -->
+	=============================================
+<script>
+	var map;
+    function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 25.1076788, lng: 121.5320363},
+    zoom: 15
+    });
+    }  
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbPH8ua4Eng4paaz27JKNTrnPk2nR0RNw&callback=initMap" async defer></script>
+		-->
     <div id="map"></div>	
 	<script>
 	var map;

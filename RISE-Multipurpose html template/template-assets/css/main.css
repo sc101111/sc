@@ -2,33 +2,11 @@
 /* ==========================================================================
 Global Styles
 ========================================================================== */
-.title  {
-   text-align: center; 
-   
-}   
-.city {
-   float: left;
-   margin: 5px;
-   padding: 1px;
-   width: 200px;
-   height:160px;
-}   
-
-.btn {
-   text-align:center;
-   float: center;
-   margin: 5px;
-   padding: 1px;
-   
-}   
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #0d0d0d;
   overflow-x: hidden;
-  height: 100%;
-        margin: 0;
-        padding: 0;
 }
 
 .sep {
@@ -215,25 +193,23 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
-  background: rgba(9, 51, 115, 0.6); //begining navibar
+  background: rgba(13, 13, 13, 0.6);
   margin-bottom: 0;
   border: none;
-  padding-top: -5px;
 }
 .navbar-default .navbar-header {
   width: 28%;
-  padding-left: 5px;
-  
+  padding-right: 15px;
 }
 .navbar-default .nav-wrap {
   width: 50%;
 }
 .navbar-default .nav > li > a {
-  font-size: 20px;
+  font-size: 14px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 25px 10px;   //navi word titie range
+  padding: 35px 15px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -242,7 +218,7 @@ Navigation Style
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus,
 .navbar-default .nav > li > a:active {
-  color: white;
+  color: #a3a3a3;
 }
 .navbar-default .social-media {
   float: right;
@@ -256,18 +232,16 @@ Navigation Style
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
-  color: #000;
+  color: #a3a3a3;
 }
 
 .top-nav-collapse {
-  background: rgba(252, 255, 5, 0.9);      //navi hover background color
-  
+  background: #24242a;
 }
 .top-nav-collapse .navbar-brand {
   height: auto;
 }
 .top-nav-collapse .navbar-brand img {
-  padding-top: -15px;
   width: 52px;
   height: 52px;
 }
@@ -372,7 +346,7 @@ Sliders Style
 Welcome Style
 ========================================================================== */
 #welcome {
-  padding: 10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #welcome h2 {
@@ -391,7 +365,7 @@ Services Style
 ========================================================================== */
 #services {
   background: #24242a;
-  padding: 70px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #services h2 {
@@ -436,7 +410,7 @@ Services Style
 Portfolio Style
 ========================================================================== */
 #portfolio {
-  padding:10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #portfolio h2 {
@@ -501,7 +475,7 @@ Portfolio Style
 Work Process Style
 ========================================================================== */
 #work-process {
-  padding: 10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #work-process .col-lg-3 {
@@ -525,7 +499,7 @@ Fun Facts Style
 ========================================================================== */
 #fun-facts {
   background: #24242a;
-  padding: 10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #fun-facts .col-lg-3 {
@@ -559,7 +533,7 @@ Fun Facts Style
 Our Team Style
 ========================================================================== */
 #team {
-  padding: 10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #team h2 {
@@ -604,7 +578,7 @@ Testimonials Style
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #testimonials h2 {
@@ -654,7 +628,7 @@ Testimonials Style
 Contact Us Style
 ========================================================================== */
 #contact {
-  padding: 10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 #contact h2 {
@@ -692,7 +666,7 @@ Footer Map Style
 ========================================================================== */
 footer {
   background: #24242a;
-  padding: 10px 0;
+  padding: 60px 0;
   text-align: center;
 }
 footer h1 {
