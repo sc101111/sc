@@ -504,6 +504,9 @@ Work Process Style
 #work-process {
   padding: 70px 0;
   text-align: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 #work-process .col-lg-3 {
   margin-top: 10px;
@@ -684,8 +687,11 @@ Contact Us Style
 Google Map Style
 ========================================================================== */
 #map {
-  width: 100%;
-
+  width: 100%; 
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); 
+  margin: 0;
+  padding: 0;
 }
 
     /* ==========================================================================
@@ -728,7 +734,7 @@ Media Queries Style
 @media (max-width: 992px) {
   /*-- Navigation --*/
   .navbar-default {
-    background: #24242a;
+    background: rgba(39, 101, 191, 0.9);
   }
   .navbar-default .navbar-header {
     width: 100%;
@@ -745,7 +751,7 @@ Media Queries Style
     width: 100%;
   }
   .navbar-default .navbar-toggle {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 25px;
     border: none;
   }
