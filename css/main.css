@@ -687,11 +687,9 @@ Contact Us Style
 Google Map Style
 ========================================================================== */
 #map {
-  width: 100%; 
-    -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); 
-  margin: 0;
-  padding: 0;
+  height: 300px;
+  
+  
 }
 
     /* ==========================================================================
