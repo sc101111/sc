@@ -15,6 +15,14 @@ Global Styles
    height:170px;
 }   
 
+.map-google {
+   float: center;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   
+}   
+
 .btn {
    text-align:center;
    float: center;
