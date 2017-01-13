@@ -45,24 +45,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-NFGX8W8');</script>
 <!-- End Google Tag Manager -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-90346806-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFGX8W8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
     <!-- Preloader
 	============================================= -->
     <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
@@ -70,6 +57,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	============================================= -->
     <section class="main-header">
         <nav class="navbar navbar-default navbar-fixed-top">
+		 <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'zh-tw', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-90346806-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>	
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -86,7 +78,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li><a href="#services" class="page-scroll"><font face="微軟正黑體">理念</font></a></li>  
                             <li><a href="#portfolio" class="page-scroll"><font face="微軟正黑體">作品</font></a></li> 
                             <li><a href="#work-process" class="page-scroll"><font face="微軟正黑體">關於</font></a></li>
-							<li><a href="index-1.htm" target="_blank" ><font face="微軟正黑體">地圖</font></a></li>							
+							<li><a href="index-1.htm" target="_blank" ><font face="微軟正黑體">地圖</font></a></li>
+                           						
                         <!--    <li><div id="fb-root"></div><script src="http://connect.facebook.net/zh_TW/all.js#appId=253496031362340&amp;xfbml=1"></script><fb:login-button show-faces="true" onlogin="window.location.href='http://www.yahoo.com.tw' width="400" max-rows="1">有聽老師話的人才可登入</fb:login-button><div id="profile_pics"></div><script>var profilePicsDiv = document.getElementById('profile_pics');FB.getLoginStatus(function(response) {  if (response.status != 'connected') {    profilePicsDiv.innerHTML = '<em>You are not connected</em>';    return;  }  FB.api({ method: 'friends.get' }, function(result) {    Log.info('friends.get response', result);    var markup = '';    var numFriends = result ? Math.min(15, result.length) : 0;    if (numFriends > 0) {      for (var i=0; i<numFriends; i++) {        markup += (          '<fb:profile-pic size="square" ' +                          'uid="' + result[i] + '" ' +                          'facebook-logo="true"' +          '></fb:profile-pic>'        );      }    }    profilePicsDiv.innerHTML = markup;    FB.XFBML.parse(profilePicsDiv);  });});</script>
 </li> -->
 							
