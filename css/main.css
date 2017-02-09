@@ -535,12 +535,12 @@ Fun Facts Style
 ========================================================================== */
 #fun-facts {
   background: #24242a;
-  padding: 10px 0;
+  padding: 70px 0;
   text-align: center;
 }
 #fun-facts .col-lg-3 {
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 #fun-facts h2 {
   text-transform: uppercase;
@@ -569,7 +569,7 @@ Fun Facts Style
 Our Team Style
 ========================================================================== */
 #team {
-  padding: 10px 0;
+  padding: 0px 0;
   text-align: center;
 }
 #team h2 {
@@ -577,7 +577,7 @@ Our Team Style
 }
 #team .team {
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 #team .team h4 {
   margin-top: 20px;
