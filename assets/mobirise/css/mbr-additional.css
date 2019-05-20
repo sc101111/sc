@@ -60,7 +60,7 @@ body {
   .display-1 {
     font-size: 4.8rem;
     font-size: calc( 2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20))));
+    line-height: 0.9rem;
   }
   .display-2 {
     font-size: 2.88rem;
@@ -1522,7 +1522,6 @@ body {
   z-index: 1000;
 }
 .cid-rqHifY7WxX .navbar.navbar-short {
-  min-height: 60px;
   transition: all .2s;
 }
 .cid-rqHifY7WxX .navbar.navbar-short .navbar-toggler-right {
