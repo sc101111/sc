@@ -2,5 +2,7 @@
     "name": "simon/hum-multi",
     "description": "v.1.0",
     "type": "1",
-    "require": {}
+    "require": {
+         "php": "^7.3|^8.0",
+    }
 }
